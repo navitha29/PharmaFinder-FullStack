@@ -1,0 +1,35 @@
+.find-medicine-section {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.info-image {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.info-image img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+  width: 500px; /* Adjust width as needed */
+}
+
+.info-text {
+  flex: 1;
+  padding: 0 35px;
+  color: #4f4f4f; /* Dark grey color */
+  font-weight: 180; /* Light font weight */
+  font-size: 10px; /* Reduced font size */
+}
+
+/* Add margin-bottom to the last .info-section */
+.info-section:last-of-type {
+  margin-bottom: 40px; /* Adjust the gap as needed */
+}

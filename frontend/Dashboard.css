@@ -1,0 +1,106 @@
+/* Basic styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .dashboard-header {
+    background-color: #b5b6bd; /* Darker shade of blue */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav-button {
+    padding: 15px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #53dbed;
+    transition: background-color 0.3s, color 0.3s;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .nav-button.active {
+    background-color: #42d1ed;
+    color: white;
+    border-bottom: 3px solid #ffffff;
+  }
+  
+  .nav-button:hover {
+    background-color: #e8eaf6;
+  }
+  
+  .dashboard-main {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-content h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .card-content p {
+    margin: 10px 0 0;
+    color: #555;
+    line-height: 1.6;
+  }
+  

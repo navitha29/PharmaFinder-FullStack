@@ -1,0 +1,77 @@
+.landing-body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.landing-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.landing-left {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.landing-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.landing-title {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.landing-description {
+  font-size: 1.2em;
+  color: #7f8c8d;
+  margin: 20px 0;
+}
+
+.landing-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #2c3e50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.landing-button:hover {
+  background-color: #34495e;
+}
+
+.landing-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-image {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}

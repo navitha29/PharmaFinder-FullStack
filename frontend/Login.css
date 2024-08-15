@@ -1,0 +1,128 @@
+.page-wrapper {
+  background-color: #f5f5f5; /* Background color for the entire page */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px; /* Increased padding for more space around */
+}
+
+.Login {
+  display: flex; /* Use flexbox for side-by-side alignment */
+  flex-direction: row;
+  background-color: #fff; /* Background color for the container */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  overflow: hidden; /* To ensure content doesn't overflow the container */
+  max-width: 900px; /* Adjusted max-width for a wider container */
+  width: 100%;
+}
+
+.Login-image {
+  flex: 1; /* Take up equal space with the form */
+}
+
+.Login-image img {
+  width: 100%; /* Make the image take the full width of its container */
+  height: 100%; /* Make the image take the full height of its container */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+.Login-form {
+  flex: 1; /* Take up equal space with the image */
+  padding: 40px; /* Add padding around the form */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Login-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.account-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.account-box {
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+  margin: 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #fff;
+}
+
+.account-box.selected {
+  border-color: #007bff;
+}
+
+.account-box img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.login-form p {
+  text-align: center;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-footer a {
+  color: #007bff;
+  margin-left: 10px;
+}
+
+.form-footer button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 190px;
+}
+
+.form-footer button:hover {
+  background-color: #0056b3;
+}
+
+.App-footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.App-footer p {
+  margin-top: 10px;
+}
+
+.App-footer a {
+  color: #007bff;
+  margin-left: 10px;
+}

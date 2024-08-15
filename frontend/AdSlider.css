@@ -1,0 +1,15 @@
+.adslider-html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .adslider-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  

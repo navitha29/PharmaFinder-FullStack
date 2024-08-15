@@ -1,0 +1,136 @@
+body.listbody {
+  font-family: Arial, sans-serif;
+  background-color: rgb(246, 237, 224);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-list-container {
+  margin-left: 350px;
+  margin-top: 90px;
+  background-color: #c9c9c9; /* Updated background color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(83, 229, 237, 0.1);
+  padding: 30px;
+ 
+  width: 55vw; /* Fixed width: 55% of the viewport width */
+  height: auto; /* Fixed height: auto */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #0d1716;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(98, 95, 91);
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selected-medicines {
+  margin-top: 20px;
+  text-align: left;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.medicine-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.medicine-item span {
+  flex-grow: 1;
+}
+
+.medicine-item select {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.quantity-controls button {
+  background-color: #86908e;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quantity-controls span {
+  margin: 0 5px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px; /* Add space between buttons */
+  
+  border: none;
+  
+}
+
+.search-button {
+  background-color: #69ace7; /* Blue color for search button */
+  color: #fff;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+  margin-top:0px;
+}
+
+.post-button-create {
+  background-color:  #69ace7; /* Green color for post button */
+  color: #fff;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+  
+
+}
+
+footer p {
+  font-size: 14px;
+  color: #051b18;
+  margin-top: 20px;
+}

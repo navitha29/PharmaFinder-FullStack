@@ -1,0 +1,23 @@
+.options-html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.options-button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #72cbf8;
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.options-button:hover {
+  background-color: #5ad3f1;
+  border: 1px solid #9e9e9e;
+}

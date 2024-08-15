@@ -1,0 +1,123 @@
+.post-background {
+   background-color: rgb(248, 237, 223);
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire container without distortion */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh; /* Make sure it covers the full viewport height */
+    overflow: auto; /* Allow scrolling if content overflows */
+  }
+  
+  .post-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 150px auto 0; /* Center the container horizontally */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text and inline elements inside the container */
+  }
+  
+  .medicine-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .medicine-card strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .total {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .upload-section {
+    margin-top: 20px;
+  }
+  
+  .file-preview {
+    margin-top: 10px;
+  }
+  
+  .file-preview img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-btn {
+    display: inline-block; /* Change from block to inline-block to respect text alignment */
+    width: auto; /* Remove the width to allow automatic centering */
+    padding: 10px 20px; /* Adjust padding for better appearance */
+    margin: 20px auto 0; /* Center the button and add margin */
+    
+    background-color: #76c0d6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .post-btn:hover {
+    background-color: #2e9da3;
+  }
+  .order-title-section {
+    margin-bottom: 20px; /* Adds space between Order Title and Choose File button */
+  }
+  
+  .order-title-section label {
+    margin-right: 10px; /* Adds space between the label and input field */
+  }
+  
+  .upload-section {
+    margin-top: 30px; /* Additional space above the file input section */
+  }
+  
+  .post-container input[type="text"] {
+    margin-top: 5px; /* Adds a small margin between the label and input field */
+    padding: 8px;
+    width: calc(100% - 16px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .upload-section input[type="file"] {
+    margin-right: 20x; /* Adds space between the button and the "No file chosen" statement */
+}
+.file-preview {
+  margin-top: 10px;
+  margin-left: 20px; /* Add left margin if the "No file chosen" is part of the file preview section */
+}
+.upload-section {
+  margin: 20px 0;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #76c0d6;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.file-preview img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}

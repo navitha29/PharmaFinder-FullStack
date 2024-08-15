@@ -1,0 +1,23 @@
+html{
+    background-color: white;
+}
+.app-body{
+    width: 100vw;
+    height: 100vh;
+}
+.App {
+    text-align: center;
+  }
+  
+  .MuiAppBar-root {
+    background-color: #56bad9 !important;
+  }
+  
+  .MuiButton-root {
+    border-radius: 8px;
+  }
+  
+  .MuiBox-root {
+    padding: 10px;
+  }
+  
